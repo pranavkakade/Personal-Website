@@ -1,0 +1,175 @@
+.cse_student{
+    font-weight: normal;
+}
+.top_container
+{
+   background-color:#E4f9f5;  
+  /* padding: 20px;  This will increase the gap between content and border of <div>.*/
+   /* margin-bottom: 20px; */
+   padding-top: 100px;
+   position: relative;
+
+}
+h1
+{
+    margin-top:50px;         /*Cause the default css values are there so need to revalue these atributes. */
+     /* Its okay even if you dont write px or % if its 0 */
+    /*  margin:0 auto 0 auto; ****** In case you want to change its position use this then */ 
+    font-family: "sacramento",cursive;
+    font-size: 5rem;
+    color: #66bfbf;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66bfbf;
+    font-weight: normal;
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+    
+}
+body{
+    margin: 0;    /* There won't be any margin space .*/
+    text-align: center;
+    font-family:"merriweather",serif ;
+    color: #40514e;
+    /* font-size: 200%;  16px or 1 em*/
+}
+.middle-container{
+    margin: 100px 0; /*means top and bottom -100px and left and right - 0px. */
+}
+.top-cloud
+{
+    position: absolute;
+    right: 300px;
+    top:40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.wd-gif{
+   
+}
+.skills{
+ 
+}
+.skill-row 
+{   
+   /*  position: relative; With this i changed position of the div from left to center lmaooo. not the optimal way duh.
+    left: 350px; */
+    width:50%;
+    margin: 100px auto 100px auto;
+    
+    
+}
+.my-skills{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    font-size: 2.5rem;
+}
+.skill-row-img1{
+  /*  width: 25%;
+   border-radius: 120px 20px 120px 20px;*/
+  /* border-radius: 40px 40px 0 0; */
+  border-radius: 50% ;
+  float: left; /* It will keep image on left and text/content below on its right. */
+
+  margin-right: 30px;
+ 
+  
+}
+.skill-row-img2{
+    /*  width: 25%;
+     border-radius: 120px 20px 120px 20px;*/
+    /* border-radius: 40px 40px 0 0; */
+    border-radius: 50% ;
+    float: right; /* It will keep image on left and text/content below on its right. */
+    margin-left: 30px;
+    
+  }
+div.skill-row{
+    text-align: left;
+}
+p{
+    line-height: 2; /* used to give space between text i guess. but i will check that soon. */
+}
+/*
+.skill-descrition1{ If its common text then simply define its color in body , for paragraphs
+   clear: left;     we prefer writing its color in body and for other elem. we will define 
+  color: #40514e;   their color in their css class.
+}
+.skill-descrition2{
+    clear: right; 
+   color: #40514e;
+}
+
+.my-pic{    *****Prefer putting margin betweeen two divs rather than the element and div if  both elements are in a searate div.
+    margin-top: 60px;  
+}*/
+hr{
+    margin:100px auto 100px auto;
+    border-style: none;
+    border-top-style: dotted ;
+    border-color: #D3D3D3;
+    border-width: 5px;
+    width: 5%;
+    
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  
+
+.contact-me{
+
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    
+}
+a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px ;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: #eaf6f6;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
